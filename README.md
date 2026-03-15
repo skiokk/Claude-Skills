@@ -84,11 +84,10 @@ La skill si attiva con query come:
 | Caratteristica | Core (Gratis) | Plus (~$19/mese) | Pro (~$99/mese) |
 |---|---|---|---|
 | Sessioni | Solo `default` | Illimitate | Illimitate |
+| Dashboard / Swagger / Proxy / Security | Si | Si | Si |
 | Invio media | No | Si | Si |
 | Storage | Solo file | File + PostgreSQL + MongoDB + S3 | File + PostgreSQL + MongoDB + S3 |
-| Dashboard UI | No | Si | Si |
-| Proxy/HMAC | No | Si | Si |
-| Health check | No | Si | Si |
+| Codice sorgente Plus | No | No | Si |
 
 ---
 

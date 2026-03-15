@@ -159,7 +159,7 @@ docker run -d \
 | `WAHA_NO_API_KEY` | Disabilita requisito chiave API |
 | `WHATSAPP_API_KEY_EXCLUDE_PATH` | Path esclusi da autenticazione |
 
-### Dashboard (Plus/Pro)
+### Dashboard
 
 | Variabile | Descrizione | Default |
 |---|---|---|
@@ -168,7 +168,7 @@ docker run -d \
 | `WAHA_DASHBOARD_PASSWORD` | Password login | `waha` |
 | `WAHA_DASHBOARD_NO_PASSWORD` | Disabilita password | - |
 
-### Swagger (Plus/Pro)
+### Swagger
 
 | Variabile | Descrizione | Default |
 |---|---|---|

@@ -1,0 +1,5 @@
+{
+  "name": "waha-marketplace",
+  "description": "WAHA WhatsApp HTTP API Plugin",
+  "plugins": ["./"]
+}

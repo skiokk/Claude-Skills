@@ -22,17 +22,19 @@ WAHA e' un'API HTTP REST self-hosted per WhatsApp. Si installa su server proprio
 |---|---|---|---|
 | Sessioni | Solo `default` | Illimitate | Illimitate |
 | Sessioni raccomandate | 1 | 2-100 | 100+ |
-| Invio media (immagini, video, audio) | NO | SI | SI |
+| Invio/ricezione testo | SI | SI | SI |
 | Ricezione media | SI | SI | SI |
+| Invio media (immagini, video, audio) | NO | SI | SI |
+| Dashboard UI | SI | SI | SI |
+| Swagger / OpenAPI | SI | SI | SI |
+| Proxy support | SI | SI | SI |
+| Security integrata | SI | SI | SI |
+| Webhook | SI | SI | SI |
 | Storage | Solo file | File + PostgreSQL + MongoDB + S3 | File + PostgreSQL + MongoDB + S3 |
-| Dashboard UI | NO | SI | SI |
-| Swagger protezione password | NO | SI | SI |
-| Proxy support | NO | SI | SI |
-| HMAC webhook security | NO | SI | SI |
-| Health check endpoint | NO | SI | SI |
 | Foto profilo (set/delete) | NO | SI (solo WPP) | SI (solo WPP) |
 | Docker image | `devlikeapro/waha` | `devlikeapro/waha-plus` | `devlikeapro/waha-plus` |
 | Codice sorgente | Pubblico | NO | SI (GitHub privato) |
+| Team members | - | - | Fino a 5 |
 | Supporto prioritario | NO | NO | SI |
 | Licenza | Nessuna scadenza | Nessuna scadenza | Nessuna scadenza |
 
@@ -158,5 +160,5 @@ Per la guida completa anti-ban con checklist, protocollo di invio, esempio di co
 3. I video devono essere **MP4 con codec libx264**. L'audio vocale deve essere **audio/ogg; codecs=opus**. Usare gli endpoint di conversione se necessario.
 4. WAHA non e' affiliato con WhatsApp. L'uso di client non ufficiali puo' comportare il blocco dell'account.
 5. Preferire i **webhook** rispetto al polling con `GET /api/messages` per evitare problemi di performance.
-6. Il **Dashboard UI** e' disponibile solo in Plus/Pro all'URL base del server WAHA.
+6. Il **Dashboard UI** e' disponibile in tutte le versioni (anche Core) all'URL `http://localhost:3000/dashboard`.
 7. **Non esporre** l'API WAHA su reti pubbliche senza protezione API key e firewall.
