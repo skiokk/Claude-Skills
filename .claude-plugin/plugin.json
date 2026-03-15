@@ -1,8 +1,0 @@
-{
-  "name": "waha",
-  "version": "1.0.0",
-  "description": "Skill completa per WAHA - WhatsApp HTTP API. Copre tutte le funzionalità Core, Plus e Pro: sessioni, messaggi, gruppi, canali, stati, contatti, chat, presenza, sondaggi, etichette, chiamate e webhook.",
-  "author": {
-    "name": "skiokk"
-  }
-}

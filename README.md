@@ -60,14 +60,19 @@ skills/waha/
 
 ### Installazione
 
-Copia la cartella della skill nella directory globale di Claude Code:
+1. Clona il repository:
+```bash
+git clone https://github.com/skiokk/Claude-Skills.git
+cd Claude-Skills
+```
 
+2. Copia la skill nella directory globale di Claude Code:
 ```bash
 mkdir -p ~/.claude/skills/waha
 cp -r skills/waha/* ~/.claude/skills/waha/
 ```
 
-La skill si attivera' automaticamente quando menzioni WAHA, WhatsApp API, o argomenti correlati in qualsiasi conversazione Claude Code.
+3. Riavvia Claude Code. La skill si attivera' automaticamente quando menzioni WAHA, WhatsApp API, o argomenti correlati in qualsiasi conversazione.
 
 ### Trigger Automatici
 
